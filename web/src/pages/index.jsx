@@ -2,6 +2,7 @@ import Head from "@docusaurus/Head";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import classNames from "classnames";
 
+import AppTiles from "../components/AppTiles";
 import ExampleWaspApps from "../components/ExampleWaspApps";
 import Faq from "../components/Faq.jsx";
 import Features from "../components/Features";
@@ -67,6 +68,7 @@ const Index = () => {
             <Hero />
             <Features />
             <HowItWorks />
+            <AppTiles />
             <ExampleWaspApps />
             <Testimonials />
             <LightsTwo />
